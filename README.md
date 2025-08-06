@@ -20,20 +20,21 @@ The project uses **Machine Learning / Deep Learning** models for classification 
 git clone https://github.com/Nikhita-14/Medical-Pneumonia-Prediction.git
 cd Medical-Pneumonia-Prediction
 ```
-2. Create a virtual environment (recommended)
+### 2. Create a virtual environment (recommended)
 ```bash
 python -m venv venv
 venv\Scripts\activate   # On Windows```
 ```bash
 source venv/bin/activate  # On Linux/Mac
 ```
-3. Install dependencies
-``bash
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
-4. Run the Streamlit app
-bash
-Copy code
+```
+### 4. Run the Streamlit app
+```bash
 streamlit run app.py
+```
 📂 Project Structure
 bash
 ```
